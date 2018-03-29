@@ -43,6 +43,8 @@ public class TimeEntryApiTest {
         jdbcTemplate.execute("TRUNCATE time_entries");
 
         TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
+
+
     }
     @Test
     public void testCreate() throws Exception {
